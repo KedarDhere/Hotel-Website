@@ -52,6 +52,15 @@ p {
     background-color: #444;
     color: #f7c08a;
 }
+
+.btn-light {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background-color: #333;
+}
 /* Navbar */
 #navbar {
     background: #333;
@@ -114,3 +123,39 @@ p {
     padding-bottom: 20px;
     line-height: 1.7em;
 }
+
+/*Section Image*/
+#home-info {
+    height: 400px;
+}
+
+#home-info .info-img {
+    float:left;
+    width:50%;
+    background: url("../img/image_resources/photo-1.jpg") no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content {
+    color: #fff;
+    padding: 50px 30px;
+    float: right;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#home-info h2 {
+    padding-bottom: 40px;
+}
+
+#home-info p {
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
