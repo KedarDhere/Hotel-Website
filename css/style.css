@@ -154,8 +154,32 @@ p {
     padding-bottom: 30px;
 }
 
+/* Features */
+#features{
+    text-align: center;
+}
 
+#features #location{
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+}
 
+#features #meals{
+    background: #f7c08a;
+    float: left;
+    width: 33.33%;
+    padding: 40px;
 
+}
 
+#features #fitness-room{
+    float: left;
+    width: 33.34%;
+    padding: 40px;
+}
+
+#features i {
+    margin-bottom: 20px;
+}
 
