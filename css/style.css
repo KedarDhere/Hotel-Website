@@ -61,6 +61,10 @@ p {
 .bg-dark {
     background-color: #333;
 }
+
+.clr {
+    clear: both;
+}
 /* Navbar */
 #navbar {
     background: #333;
@@ -183,3 +187,9 @@ p {
     margin-bottom: 20px;
 }
 
+/* Footer*/
+#main-footer {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
