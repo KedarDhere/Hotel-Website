@@ -65,6 +65,16 @@ p {
 .clr {
     clear: both;
 }
+
+.l-heading {
+    font-size: 40px;
+}
+
+/* Padding*/
+.py1 { padding: 10px 0; }
+.py2 { padding: 20px 0; }
+.py3 { padding: 30px 0; }
+
 /* Navbar */
 #navbar {
     background: #333;
@@ -192,4 +202,26 @@ p {
     text-align: center;
     padding: 20px;
     color: #fff;
+}
+
+/*About Page*/
+
+#about-info .about-info-img{
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+
+#about-info .about-info-img img{
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+
+#about-info .about-info-content{
+    text-align: left;
+    float:left;
+    width: 50%;
+    min-height: 100%;
 }
